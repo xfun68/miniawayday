@@ -1,0 +1,17 @@
+body
+{
+  border-style:dotted;
+  border-width:1px;
+  text-align:center;
+}
+
+#page {
+  width: 500px;
+  margin: 0 auto;
+}
+
+header
+{
+  border:1px dotted gray;
+}
+
