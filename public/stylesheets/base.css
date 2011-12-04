@@ -2,6 +2,14 @@ html { overflow:auto; }
 body { font:13px/18px Arial, Helvetica, sans-serif; background-color:#f5f5f5; min-width:960; margin:0 auto; text-align:center }
 body h1 { float:left; clear:both; font-size:18px; margin:35px 0 20px; }
 
+.container_12 {
+  padding: 20px 0;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
 #schedule {
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   width:100%;
@@ -71,18 +79,18 @@ body h1 { float:left; clear:both; font-size:18px; margin:35px 0 20px; }
   background-color:#EAF2D3;
 }
 
-#lighting_talk {
+#lightning_talks {
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   width:100%;
   border-collapse:collapse;
 }
-#lighting_talk td, #lighting_talk th {
+#lightning_talks td, #lightning_talks th {
   font-size:1.2em;
   border:1px solid #98bf21;
   border-style:none;
   padding:3px 7px 2px 7px;
 }
-#lighting_talk th {
+#lightning_talks th {
   font-size:1.4em;
   text-align:left;
   padding-top:5px;
@@ -90,7 +98,7 @@ body h1 { float:left; clear:both; font-size:18px; margin:35px 0 20px; }
   background-color:#A7C942;
   color:#fff;
 }
-#lighting_talk tr.alt td {
+#lightning_talks tr.alt td {
   background-color:#EAF2D3;
 }
 
