@@ -2,3 +2,72 @@ html { overflow:auto; }
 body { font:13px/18px Arial, Helvetica, sans-serif; background-color:#f5f5f5; width:775px; margin:0 auto; text-align:center }
 body h1 { float:left; clear:both; font-size:18px; margin:35px 0 20px; }
 
+#schedule {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:100%;
+  border-collapse:collapse;
+}
+#schedule td, #schedule th {
+  font-size:1.2em;
+  border:1px solid #98bf21;
+  border-style:none;
+  padding:3px 7px 2px 7px;
+}
+#schedule th {
+  font-size:1.4em;
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#A7C942;
+  color:#fff;
+}
+#schedule tr.alt td {
+  background-color:#EAF2D3;
+}
+
+#sessions {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:100%;
+  border-collapse:collapse;
+}
+#sessions td, #sessions th {
+  font-size:1.2em;
+  border:1px solid #98bf21;
+  border-style:none;
+  padding:3px 7px 2px 7px;
+}
+#sessions th {
+  font-size:1.4em;
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#A7C942;
+  color:#fff;
+}
+#sessions tr.alt td {
+  background-color:#EAF2D3;
+}
+
+#games {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:100%;
+  border-collapse:collapse;
+}
+#games td, #games th {
+  font-size:1.2em;
+  border:1px solid #98bf21;
+  border-style:none;
+  padding:3px 7px 2px 7px;
+}
+#games th {
+  font-size:1.4em;
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#A7C942;
+  color:#fff;
+}
+#games tr.alt td {
+  background-color:#EAF2D3;
+}
+
