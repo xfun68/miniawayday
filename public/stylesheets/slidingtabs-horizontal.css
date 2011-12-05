@@ -1,7 +1,6 @@
 div.st_horizontal
 {
   clear: both;
-  color: #616161;
   position: relative;
 }
 div.st_horizontal a.st_prev,div.st_horizontal a.st_next
@@ -57,7 +56,6 @@ div.st_horizontal a.st_next.st_btn_disabled
 }
 div.st_horizontal div.st_tabs_container
 {
-  height: 40px;
   margin-bottom: -1px;
   overflow: hidden;
   position: relative;
@@ -74,7 +72,6 @@ div.st_horizontal div.st_sliding_active div.st_slide_container
 }
 div.st_horizontal ul.st_tabs
 {
-  height: 40px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -84,20 +81,25 @@ div.st_horizontal ul.st_tabs li
 {
   float: left;
 }
+div.st_horizontalsd ul.st_tabs li a
+{
+  text-transform: uppercase;
+}
+
 div.st_horizontal ul.st_tabs li a
 {
-  background: #fff url(../img/h_tab_bg.jpg) repeat-x 0 bottom;
-  border-bottom: 1px solid #d4d4d4;
-  border-right: 1px solid #d4d4d4;
-  border-top: 1px solid #d4d4d4;
-  color: #6a6a6a;
+  background: #555;
+  border-bottom: 1px solid #555;
+  border-right: 1px solid #555;
+  border-top: 1px solid #555;
+  color: white;
   display: block;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: normal;
   line-height: 18px;
   margin: 0;
   outline: none;
-  padding: 10px 10px;
+  padding: 5px 10px;
   width: 167px;
   text-decoration: none;
 }
@@ -107,7 +109,8 @@ div.st_horizontal ul.st_tabs a:hover
 }
 div.st_horizontal ul.st_tabs li a.st_first_tab
 {
-  border-left: 1px solid #d4d4d4;
+  border-left: 1px solid #555;
+  width: 166px;
 }
 div.st_horizontal ul.st_tabs a.st_tab_active
 {
@@ -117,15 +120,15 @@ div.st_horizontal ul.st_tabs a.st_tab_active
 }
 div.st_horizontal div.st_view_container
 {
-  background-color: #fff;
-  border: 1px solid #d4d4d4;
+  background: #DDD;
   height: 277px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   overflow: hidden;
-  padding: 20px 20px 23px;
+  padding: 10px 10px 1px 10px;
   position: relative;
   text-align: left;
   z-index: 5;
+
 }
 div.st_horizontal div.st_view
 {

@@ -1,146 +1,71 @@
 html { overflow:auto; }
-body { font:13px/18px Arial, Helvetica, sans-serif; background-color:#f5f5f5; min-width:960; margin:0 auto; text-align:center }
-body h1 { float:left; clear:both; font-size:18px; margin:35px 0 20px; }
+body { font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; min-width:960; margin:0 auto; text-align:center }
+
 
 body
 {
-  background: #123;
-  color: #DDD;
+  background: #EEE;
+  border-top: 5px solid black;
+  color: #333;
+  font-size: 11px;
+  padding: 0 0 40px;
 }
 
-p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure, #date_and_map {
+h1#branding
+{
+  font-weight: normal;
+  font-size: 3em;
+  background: #AAA;
+  height: 39px;
+  padding: .7em 1em;
+  margin: 0;
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, header, iframe, footer, figure {
   margin-bottom: 20px;
 }
 
-hr {
-  border: 0 #CCC solid;
-  border-top-width: 1px;
-  border-top: 1px solid #999;
-  border-bottom: 1px dashed #666;
-  clear: both;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 2px 0 0;
-  height: 0;
-}
-
 .container_12 {
-  padding: 20px 0;
   position: relative;
+  background: white;
 }
 
-#schedule {
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  width:100%;
-  border-collapse:collapse;
-}
-#schedule td, #schedule th {
-  font-size:1.2em;
-  border:1px solid #98bf21;
-  border-style:none;
-  padding:3px 7px 2px 7px;
-}
-#schedule th {
-  font-size:1.4em;
-  text-align:left;
-  padding-top:5px;
-  padding-bottom:4px;
-  background-color:#A7C942;
-  color:#fff;
-}
-#schedule tr.alt td {
-  background-color:#EAF2D3;
+header
+{
+  margin-bottom: 0;
 }
 
-#sessions {
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  width:100%;
-  border-collapse:collapse;
-}
-#sessions td, #sessions th {
-  font-size:1.2em;
-  border:1px solid #98bf21;
-  border-style:none;
-  padding:3px 7px 2px 7px;
-}
-#sessions th {
-  font-size:1.4em;
-  text-align:left;
-  padding-top:5px;
-  padding-bottom:4px;
-  background-color:#A7C942;
-  color:#fff;
-}
-#sessions tr.alt td {
-  background-color:#EAF2D3;
+div#date
+{
+  text-align: left;
 }
 
-#games {
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  width:100%;
-  border-collapse:collapse;
-}
-#games td, #games th {
-  font-size:1.2em;
-  border:1px solid #98bf21;
-  border-style:none;
-  padding:3px 7px 2px 7px;
-}
-#games th {
-  font-size:1.4em;
-  text-align:left;
-  padding-top:5px;
-  padding-bottom:4px;
-  background-color:#A7C942;
-  color:#fff;
-}
-#games tr.alt td {
-  background-color:#EAF2D3;
+h2#date
+{
+  font-weight: normal;
+  padding: .5em;
+  margin: 0;
 }
 
-#lightning_talks {
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  width:100%;
-  border-collapse:collapse;
-}
-#lightning_talks td, #lightning_talks th {
-  font-size:1.2em;
-  border:1px solid #98bf21;
-  border-style:none;
-  padding:3px 7px 2px 7px;
-}
-#lightning_talks th {
-  font-size:1.4em;
-  text-align:left;
-  padding-top:5px;
-  padding-bottom:4px;
-  background-color:#A7C942;
-  color:#fff;
-}
-#lightning_talks tr.alt td {
-  background-color:#EAF2D3;
+table {
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-#code_jam {
-  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-  width:100%;
-  border-collapse:collapse;
+th, td {
+  padding: .2em 1em;
+  text-align: left;
 }
-#code_jam td, #code_jam th {
-  font-size:1.2em;
-  border:1px solid #98bf21;
-  border-style:none;
-  padding:3px 7px 2px 7px;
+
+tbody th, tbody td {
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  background: #EEE;
 }
-#code_jam th {
-  font-size:1.4em;
-  text-align:left;
-  padding-top:5px;
-  padding-bottom:4px;
-  background-color:#A7C942;
-  color:#fff;
-}
-#code_jam tr.alt td {
-  background-color:#EAF2D3;
+
+tbody tr.odd th, tbody tr.odd td {
+  background: white;
 }
 
