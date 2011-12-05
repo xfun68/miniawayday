@@ -2,12 +2,25 @@ html { overflow:auto; }
 body { font:13px/18px Arial, Helvetica, sans-serif; background-color:#f5f5f5; min-width:960; margin:0 auto; text-align:center }
 body h1 { float:left; clear:both; font-size:18px; margin:35px 0 20px; }
 
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure, #date_and_map {
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0 #CCC solid;
+  border-top-width: 1px;
+  border-top: 1px solid #999;
+  border-bottom: 1px dashed #666;
+  clear: both;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 2px 0 0;
+  height: 0;
+}
+
 .container_12 {
   padding: 20px 0;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
 }
 
 #schedule {
