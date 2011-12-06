@@ -1,5 +1,5 @@
-h1.ui-title {
-  margin: 10px 14px 14px 14px;
+.ui-header .ui-title {
+  margin: 0.6em 15px 0.8em;
 }
 
 div.page_title h4 {
