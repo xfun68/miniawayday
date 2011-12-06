@@ -8,6 +8,15 @@ div.page_title h4 {
   margin-bottom: 10px;
 }
 
+div.info_table table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.info_table table th, div.info_table table td {
+  padding: 5px 10px 5px 10px;
+}
+
 .ui-btn-inner {
   padding: .5em 10px;
 }
