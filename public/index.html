@@ -19,10 +19,6 @@
 
     <script type="text/javascript">
 
-      $('#main_page').live("pageshow", function() {
-        $('#map_canvas').gmap('refresh');
-      });
-
       $('#main_page').live("pagecreate", function() {
         $('#map_canvas').gmap({'center': '34.23621094598145, 108.89257103204727'}).bind('init', function(evt, map) {
           $('#map_canvas').gmap('option', 'zoom', 16);
