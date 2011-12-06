@@ -1,0 +1,20 @@
+div.page_title h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ui-btn-inner {
+  padding: .5em 10px;
+}
+
+.ui-btn-text {
+  font-weight: normal;
+}
+
+div#footer {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
