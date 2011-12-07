@@ -25,6 +25,10 @@ div.info_table table th, div.info_table table td {
   font-weight: normal;
 }
 
+.ui-li-divider {
+  text-align: center;
+}
+
 div#footer {
   text-align: center;
   padding-left: 0px;
