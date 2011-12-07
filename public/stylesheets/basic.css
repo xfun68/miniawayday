@@ -35,3 +35,31 @@ div#footer {
   padding-right: 0px;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main_page {
+  height: 100%;
+}
+
+div#content {
+  height: 82%;
+}
+
+#map_container {
+  height: 90%;
+  padding: .2em;
+}
+
+#map_canvas {
+  height: 100%;
+  padding: 0;
+}
+
