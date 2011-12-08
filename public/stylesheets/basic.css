@@ -8,6 +8,12 @@ div.page_title h4 {
   margin-bottom: 10px;
 }
 
+#page_title {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
 div.info_table table {
   margin-left: auto;
   margin-right: auto;
