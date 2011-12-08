@@ -1,9 +1,9 @@
 div#content {
-  padding: 1em 1.1em;
+  padding: 1em 6em;
 }
 
 #map_canvas {
-  height: 260px;
+  height: 160px;
 }
 
 #page_title {

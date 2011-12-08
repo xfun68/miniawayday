@@ -8,6 +8,10 @@ div.page_title h4 {
   margin-bottom: 10px;
 }
 
+div#content {
+  padding: 1em 4em;
+}
+
 #page_title {
   text-align: center;
   margin-top: 0px;
