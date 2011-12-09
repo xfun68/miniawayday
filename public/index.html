@@ -28,13 +28,17 @@
     <script type="text/javascript">
 
       $('#main_page').live("pagecreate", function() {
-        $('#map_canvas').gmap({'center': '34.23621094598145, 108.89257103204727'}).bind('init', function(evt, map) {
+        $('#map_canvas').gmap({'center': '34.23586446871444, 108.89258209616042'}).bind('init', function(evt, map) {
           $('#map_canvas').gmap('option', 'zoom', 16);
           $('#map_canvas').gmap('addMarker', {'position': map.getCenter(), 'animation': google.maps.Animation.DROP }).click(function() {
-            $('#map_canvas').gmap('openInfoWindow', { 'content': 'Join Us!'}, this);
+            $('#map_canvas').gmap('openInfoWindow', { 'content': '<strong>Sculpting In Time, Waiting for You.</strong><br /><strong>雕刻时光</strong><br /><strong>TW年终巨献 等你来秀！</strong><hr /><a href="http://g.co/maps/yqdxp">Show me the way.</a>'}, this);
+          });
+          $('#map_canvas').gmap('addMarker', {'position': '34.218781373896135, 108.89038871989024', 'animation': google.maps.Animation.DROP }).click(function() {
+          $('#map_canvas').gmap('openInfoWindow', { 'content': '<strong>吃货！</strong><br />我把地址藏起来还是被你发现。<br />Fine，见者有份，让老衲给你<a href="http://g.co/maps/vzekq">明示</a>吧。'}, this);
           });
         });
       });
+
 
     </script>
 
@@ -51,7 +55,7 @@
       <div id="content" data-role="content">
 
         <div class="page_title">
-          <h2 id="page_title">Dec 17, No.50 Keji Rd, Sitcoffee</h2>
+          <h2 id="page_title">Dec 17, Sculpting In Time</h2>
         </div><!-- /page_title -->
 
         <div class="ui-bar-c ui-corner-all ui-shadow" style="padding:.2em;">
