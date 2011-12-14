@@ -70,3 +70,8 @@ div.game_time p {
   margin: 0px 5px;
 }
 
+.ui-li-has-arrow .ui-btn-inner a.ui-link-inherit {
+  padding-left: 95px;
+  padding-right: 10px;
+}
+
