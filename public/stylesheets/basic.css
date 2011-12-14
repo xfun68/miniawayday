@@ -54,3 +54,17 @@ div#footer {
   padding: 0;
 }
 
+div.game_time {
+  float: left;
+  text-align: center;
+}
+
+div.game_time img {
+  padding: 10px 5px 0px 5px;
+}
+
+div.game_time p {
+  font-size: 13px;
+  margin: 0px 5px;
+}
+
