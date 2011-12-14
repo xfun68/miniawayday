@@ -57,6 +57,8 @@ div#footer {
 div.game_time {
   float: left;
   text-align: center;
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 
 div.game_time img {
