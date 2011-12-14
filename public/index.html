@@ -31,10 +31,10 @@
         $('#map_canvas').gmap({'center': '34.23586446871444, 108.89258209616042'}).bind('init', function(evt, map) {
           $('#map_canvas').gmap('option', 'zoom', 16);
           $('#map_canvas').gmap('addMarker', {'position': map.getCenter(), 'animation': google.maps.Animation.DROP }).click(function() {
-          $('#map_canvas').gmap('openInfoWindow', { 'content': '<h3>2011 Mini Away Day</h3>Sculpting In Time, Waiting for You.<br />雕刻时光，等你来秀！<br /><br /><hr /><a href="http://g.co/maps/66wpn" target="_blank">Show me the way.</a>'}, this);
+            $('#map_canvas').gmap('openInfoWindow', { 'content': '<h3>2011 Mini Away Day</h3>Sculpting In Time, Waiting for You.<br />雕刻时光，等你来秀！<br /><br />高新区科技路55号金桥国际B-C座2楼<hr /><a href="http://g.co/maps/66wpn" target="_blank">Directions</a>'}, this);
           });
           $('#map_canvas').gmap('addMarker', {'position': '34.218781373896135, 108.89038871989024', 'animation': google.maps.Animation.DROP }).click(function() {
-            $('#map_canvas').gmap('openInfoWindow', { 'content': '<strong>吃货！你就是个吃货！</strong><br />我把地址藏起来还是被你发现。<br />好吧，见者有份，让老衲给你<a href="http://g.co/maps/6ra76" target="_blank">明示</a>吧。'}, this);
+            $('#map_canvas').gmap('openInfoWindow', { 'content': '<strong>无尽美食尽在这里哦，吃货～</strong><br /><br />唐延路王子铂金酒店<hr /><a href="http://g.co/maps/6ra76" target="_blank">Directions</a>'}, this);
           });
         });
       });
