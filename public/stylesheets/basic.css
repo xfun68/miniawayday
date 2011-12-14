@@ -50,3 +50,7 @@ div#footer {
   padding-right: 10px;
 }
 
+#game_content {
+  padding: 0;
+}
+
