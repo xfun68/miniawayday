@@ -1,9 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MiniAwayDay</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
+  <title>2011 Mini Away Day Xi'an</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0 user-scalable=no">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./stylesheets/jquery.mobile-1.0.min.css" />
+  <link rel="stylesheet" href="./stylesheets/basic.css" />
+  <link rel="stylesheet" media="screen and (min-device-width: 1200px)" href="./stylesheets/laptop.css" />
+  <link rel="stylesheet" media="screen and (max-device-width: 768px) and (orientation: portrait)" href="./stylesheets/ipad-portrait.css" />
+  <link rel="stylesheet" media="screen and (max-device-width: 1024px) and (orientation: landscape)" href="./stylesheets/ipad-landscape.css" />
+  <link rel="stylesheet" media="screen and (max-device-width: 640px) and (orientation: portrait)" href="./stylesheets/iphone-portrait.css" />
+
+  <script type="text/javascript" src="./javascripts/google-maps-api.js"></script>
+  <script type="text/javascript" src="./javascripts/jquery-1.6.2.min.js"></script>
+  <script type="text/javascript" src="./javascripts/jquery.mobile-1.0b2.min.js"></script>
+  <script type="text/javascript" src="./javascripts/jquery.ui.map.full.min.js"></script>
+  <script type="text/javascript" src="./javascripts/jquery.ui.map.extensions.js"></script>
+
+  <script type="text/javascript">
+    $('#main_page').live("pagecreate", function() {
+      $('#map_canvas').gmap({'center': '34.23586446871444, 108.89258209616042'}).bind('init', function(evt, map) {
+        $('#map_canvas').gmap('option', 'zoom', 16);
+        $('#map_canvas').gmap('addMarker', {'position': map.getCenter(), 'animation': google.maps.Animation.DROP }).click(function() {
+          $('#map_canvas').gmap('openInfoWindow', { 'content': '<h3>2011 Mini Away Day</h3>Sculpting In Time, Waiting for You.<br />雕刻时光，等你来秀！<br /><br />高新区科技路55号金桥国际B-C座2楼<hr /><a href="http://g.co/maps/66wpn" target="_blank">Directions</a>'}, this);
+        });
+        $('#map_canvas').gmap('addMarker', {'position': '34.218781373896135, 108.89038871989024', 'animation': google.maps.Animation.DROP }).click(function() {
+          $('#map_canvas').gmap('openInfoWindow', { 'content': '<strong>无尽美食尽在这里哦，吃货～</strong><br /><br />唐延路王子铂金酒店<hr /><a href="http://g.co/maps/6ra76" target="_blank">Directions</a>'}, this);
+        });
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27719209-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
