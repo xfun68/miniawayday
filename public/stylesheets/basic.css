@@ -89,3 +89,7 @@ div.names p {
   font-size: 13px;
 }
 
+div#live_content {
+  padding: 0;
+}
+
