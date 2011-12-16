@@ -1,5 +1,5 @@
 MiniAwayDay::Application.routes.draw do
-  root :to => 'pages#main'
+  root :to => 'pages#map'
 
   get "pages/map"
 
@@ -11,6 +11,7 @@ MiniAwayDay::Application.routes.draw do
 
   get "pages/codejam"
 
+  match "/live" => "pages#live"
   match "/map" => "pages#map"
   match "/sessions" => "pages#sessions"
   match "/lightningtalks" => "pages#lightningtalks"
