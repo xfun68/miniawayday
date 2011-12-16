@@ -1,6 +1,4 @@
 MiniAwayDay::Application.routes.draw do
-  root :to => 'pages#map'
-
   get "pages/map"
 
   get "pages/sessions"
