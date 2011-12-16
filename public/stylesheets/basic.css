@@ -93,3 +93,11 @@ div#live_content {
   padding: 0;
 }
 
+.ui-btn-text {
+  height: 81px;
+}
+
+h3.ui-li-heading {
+  margin-top: 0;
+}
+
