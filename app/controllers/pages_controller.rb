@@ -1,17 +1,18 @@
 class PagesController < ApplicationController
-  def main
+
+  def map
   end
 
   def sessions
   end
 
-  def lightning_talks
+  def lightningtalks
   end
 
   def games
   end
 
-  def code_jam
+  def codejam
   end
 
 end
