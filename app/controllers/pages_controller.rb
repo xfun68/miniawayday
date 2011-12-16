@@ -1,5 +1,9 @@
 class PagesController < ApplicationController
 
+  def main
+    render :map
+  end
+
   def map
   end
 
