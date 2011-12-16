@@ -1,13 +1,19 @@
 MiniAwayDay::Application.routes.draw do
-  get "pages/main"
+  get "pages/map"
 
   get "pages/sessions"
 
-  get "pages/lightning_talks"
+  get "pages/lightningtalks"
 
   get "pages/games"
 
-  get "pages/code_jam"
+  get "pages/codejam"
+
+  match "/map" => "pages#map"
+  match "/sessions" => "pages#sessions"
+  match "/lightningtalks" => "pages#lightningtalks"
+  match "/games" => "pages#games"
+  match "/codejam" => "pages#codejam"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
